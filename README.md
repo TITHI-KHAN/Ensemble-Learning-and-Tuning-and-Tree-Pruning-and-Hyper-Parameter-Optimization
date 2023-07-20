@@ -184,7 +184,7 @@ This likely stands for "Decision Tree parameters." In scikit-learn, Decision Tre
 
 This is probably referring to "Random Forest parameters." Random Forest is an ensemble learning method that combines multiple decision trees to improve performance and reduce overfitting. In scikit-learn, the `RandomForestClassifier` and `RandomForestRegressor` classes are used for classification and regression tasks, respectively. Similar to decision trees, random forests have various parameters to tune, such as the number of trees (`n_estimators`), the number of features to consider for the best split (`max_features`), etc.
 
-**For example:**
+# Example
 
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning-and-Tree-Pruning-and-Hyper-Parameter-Optimization/assets/65033964/06c46eee-b8b0-4ce0-8848-a5ec98ffa15e)
 
