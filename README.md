@@ -12,7 +12,7 @@
 
 **Decision Tree Pruning:**
 
-▪ **Pre-Pruning**: It involves setting a threshold on certain parameters (e.g., the maximum depth of the tree, minimum number of samples per leaf) while growing the tree. The tree construction stops when the threshold is reached, preventing the tree from growing too large.
+▪ **Pre-Pruning**: It involves setting a threshold on certain parameters (e.g., the maximum depth of the tree, minimum number of samples per leaf) while growing the tree. The tree construction stops when the threshold is reached, preventing the tree from growing too large. It is also a hyperparameter optimization technique.
 
 ▪ **Post-Pruning**: This technique involves growing the tree to its full depth and then removing nodes or branches that do not provide significant predictive power. Pruning decisions are made based on metrics like cross- validation accuracy or information gain.
 
