@@ -22,7 +22,10 @@ collapsing nodes to reduce overfitting.**
 
 # Decision Tree Pruning
 
+
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/ba45419d-10ab-480f-9eb5-b52ccfa708fb)
+
+
 
 # Ensemble Learning
 
@@ -30,11 +33,19 @@ collapsing nodes to reduce overfitting.**
 
 ▪ The idea behind ensemble learning is that by combining several weak or moderately performing models, the ensemble can achieve better overall performance and generalization compared to any single model in the ensemble.
 
+
+
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/7e633396-e4a1-4aa9-aeef-18152c8bdcee)
+
+
 
 # Ensemble Algorithms
 
+
+
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/0f8ae14f-cacd-4f10-8b26-61dae8a1c761)
+
+
 
 # Bagging Vs. Boosting
 
@@ -48,7 +59,11 @@ collapsing nodes to reduce overfitting.**
 
 ▪ Aggregation Method
 
+
+
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/5002f894-0260-4483-867d-6ec916ae5efd)
+
+
 
 **Boosting:** 
 
@@ -60,7 +75,11 @@ collapsing nodes to reduce overfitting.**
 
 ▪ Error-Based Weights
 
+
+
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/53029bc1-8a80-4f11-bc59-f42bbd41cbd5)
+
+
 
 # Random Forest
 
@@ -68,7 +87,11 @@ Random forests or random decision forests is an **ensemble** learning method for
 
 **Random Forest** is a classifier that contains several **decision trees** on various subsets of the given dataset and takes the **average** to improve the predictive accuracy of that dataset. Instead of relying on **one decision tree**, the random forest takes the prediction from each tree and based on the **majority votes of predictions**, and it predicts the final output. The greater number of trees in the forest leads to higher accuracy and **prevents the problem of overfitting**.
 
+
+
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/45ddc77a-62a1-4188-926f-ba9f96475a0f)
+
+
 
 **Steps involved in random forest algorithm:**
 
@@ -82,9 +105,15 @@ Random forests or random decision forests is an **ensemble** learning method for
 
 **For example**: consider the fruit basket as the data as shown inthe figure below. Now n number of samples are taken from the fruit basket and an individual decision tree is constructed for each sample. Each decision tree will generate an output as shown in the figure. The final output is considered based on majority voting. In the below figure you can see that the majority decision tree gives output as an apple when compared to a banana, so the final output is taken as an apple.
 
+
+
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/f8f62516-e2da-44a2-80ae-49b22943bc78)
 
+
+
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/e8cc2672-18d9-44bf-b65f-4d53d8111704)
+
+
 
 **Advantages and Disadvantages of Random Forest:**
 
@@ -128,7 +157,11 @@ However, despite these advantages, a random forest algorithm also has some **dis
 
 # Decision Tree Vs. Random Forest
 
+
+
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/79a1e12f-d1a4-4ba3-a09b-65564f408a8f)
+
+
 
 # Hyper Param Optimization
 
