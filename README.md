@@ -176,9 +176,16 @@ Hyperparameter optimization, also known as hyperparameter tuning, is the process
 
 **Bayesian Optimization**: Bayesian optimization uses probabilistic models to predict the performance of the model for different hyperparameter values and focuses on exploring regions that are likely to yield better results.
 
+The **difference** between Grid Search and Random Search -> In Random Search, we will have to mention the no. of iteration (n_iter).
+
 # dt_params
 
 This likely stands for "Decision Tree parameters." In scikit-learn, Decision Trees are implemented in the `DecisionTreeClassifier` (for classification tasks) and `DecisionTreeRegressor` (for regression tasks) classes. These classes have various parameters that can be tuned to control the behavior of the decision tree, such as `criterion` (the function to measure the quality of a split), `max_depth` (the maximum depth of the tree), `min_samples_split` (the minimum number of samples required to split an internal node), etc.
+
+#cv = 5 -> divided by 5 folds. For the stages-> T means Testing and the rest 4 places are for Training. 80% data for Training and 20% data for Testing.
+
+![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning-and-Tree-Pruning-and-Hyper-Parameter-Optimization/assets/65033964/20df1a11-4e2c-483f-8f87-d0cd4b78d94d)
+
 
 # rf_params
 
