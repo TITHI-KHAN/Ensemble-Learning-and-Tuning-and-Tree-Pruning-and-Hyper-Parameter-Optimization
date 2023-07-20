@@ -176,3 +176,16 @@ Hyperparameter optimization, also known as hyperparameter tuning, is the process
 
 **Bayesian Optimization**: Bayesian optimization uses probabilistic models to predict the performance of the model for different hyperparameter values and focuses on exploring regions that are likely to yield better results.
 
+# dt_params
+
+This likely stands for "Decision Tree parameters." In scikit-learn, Decision Trees are implemented in the `DecisionTreeClassifier` (for classification tasks) and `DecisionTreeRegressor` (for regression tasks) classes. These classes have various parameters that can be tuned to control the behavior of the decision tree, such as `criterion` (the function to measure the quality of a split), `max_depth` (the maximum depth of the tree), `min_samples_split` (the minimum number of samples required to split an internal node), etc.
+
+# rf_params
+
+This is probably referring to "Random Forest parameters." Random Forest is an ensemble learning method that combines multiple decision trees to improve performance and reduce overfitting. In scikit-learn, the `RandomForestClassifier` and `RandomForestRegressor` classes are used for classification and regression tasks, respectively. Similar to decision trees, random forests have various parameters to tune, such as the number of trees (`n_estimators`), the number of features to consider for the best split (`max_features`), etc.
+
+**For example:**
+
+![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning-and-Tree-Pruning-and-Hyper-Parameter-Optimization/assets/65033964/06c46eee-b8b0-4ce0-8848-a5ec98ffa15e)
+
+Keep in mind that the specific parameters and their default values may vary depending on the scikit-learn version. 
