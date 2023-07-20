@@ -23,7 +23,8 @@ collapsing nodes to reduce overfitting.**
 # Decision Tree Pruning
 
 
-![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/ba45419d-10ab-480f-9eb5-b52ccfa708fb)
+![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/ab1cd441-6c09-4c8c-b48e-34e679b28f35)
+
 
 
 
@@ -35,7 +36,8 @@ collapsing nodes to reduce overfitting.**
 
 
 
-![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/7e633396-e4a1-4aa9-aeef-18152c8bdcee)
+![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/a8f17194-17e3-4f7e-afa8-114fa81e8e2f)
+
 
 
 
@@ -43,7 +45,8 @@ collapsing nodes to reduce overfitting.**
 
 
 
-![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/0f8ae14f-cacd-4f10-8b26-61dae8a1c761)
+![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/e192c203-339f-4d9a-b3a5-cb51a8690b53)
+
 
 
 
