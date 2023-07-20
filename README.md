@@ -1,7 +1,5 @@
 # Ensemble-Learning-and-Tuning (Tree Pruning & Hyper Parameter Optimization)
 
-![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/047a42b3-bac9-4d34-88a2-de23371d6bab)
-
 # Pruning Basics
 
 **Neural Network Pruning:**
