@@ -62,6 +62,19 @@ In Bagging, we created 4 DTs on the dataset and based on their results, the outp
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning-and-Tree-Pruning-and-Hyper-Parameter-Optimization/assets/65033964/8214799f-6b07-4d60-bb0b-ff190171d8d7)
 
 
+If the dataset is the same, then we will get the same tree. The model will also be the same. 
+
+In Bagging, when each tree creates a model, then they don't use the same data. Though the dataset is single and the same, when we create a DT, then it will be created by a subset. Again, another DT will be created with another subset. Taking a few portions of the same dataset, we train the model (Ensemble). 
+
+The Cose Complexity of DT -> There is a value of CCP-alpha. Based on that value, subset will be created. 
+
+In Scikit-learn, **the Cost-Complexity Pruning (CCP)** is available for decision tree classifiers through the ccp_alpha parameter. CCP pruning allows you to control the complexity of the decision tree by adding a cost term for each node based on the number of samples it contains and the impurity of its leaves. By tuning the ccp_alpha parameter, you can control the amount of pruning applied to the decision tree.
+
+**Accuracy vs Alpha graph:** 
+
+Value of Alpha: 0.015
+Training Accuracy: 0.96
+Testing Accuracy: 0.94
 
 # Ensemble Algorithms
 
@@ -84,10 +97,13 @@ In Bagging, we created 4 DTs on the dataset and based on their results, the outp
 
 ▪ Aggregation Method
 
+Bagging is a Parallel Learning.
 
 
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/5002f894-0260-4483-867d-6ec916ae5efd)
 
+
+Each sub-sample will be different, though they might contain some of the same data of the dataset. We are doing sampling here. We have separate model here. Each of the model is different. No model has any relationship with another model. Each model has been trained separately. No model has any dependency on another model. Each of them will produce a different result.
 
 
 **Boosting:** 
@@ -100,11 +116,12 @@ In Bagging, we created 4 DTs on the dataset and based on their results, the outp
 
 ▪ Error-Based Weights
 
+Boosting is a Sequential Learning.
 
 
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/53029bc1-8a80-4f11-bc59-f42bbd41cbd5)
 
-
+We have weights here. At first, it will build a model, then the error of the model will be passed down to the next step. In the next stage, it will try to correct the error. From the previous state, the next step is better. It will try to make better outcome. This works as a chain. Similarly, a model will be built. Then, error will be passed down to reduce. It will work sequentially. The result we will get from Boosting, then it will be the final result.
 
 # Random Forest
 
