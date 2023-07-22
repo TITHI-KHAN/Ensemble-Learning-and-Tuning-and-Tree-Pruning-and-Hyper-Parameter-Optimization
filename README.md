@@ -123,6 +123,10 @@ Boosting is a Sequential Learning.
 
 We have weights here. At first, it will build a model, then the error of the model will be passed down to the next step. In the next stage, it will try to correct the error. From the previous state, the next step is better. It will try to make better outcome. This works as a chain. Similarly, a model will be built. Then, error will be passed down to reduce. It will work sequentially. The result we will get from Boosting, then it will be the final result.
 
+**Note:**
+
+In Bagging, each model is not dependent on another model but in Boosting, each model is dependent on another model.
+
 # Random Forest
 
 Random forests or random decision forests is an **ensemble** learning method for classification, regression and other tasks that operates by constructing a **multitude of decision trees** at training time. For classification tasks, the output of the random forest is the class selected by **most trees**.
@@ -156,6 +160,27 @@ Random forests or random decision forests is an **ensemble** learning method for
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/e8cc2672-18d9-44bf-b65f-4d53d8111704)
 
 
+RF is the hybrid form of DT. DT creates only one tree but RF creates multiple DTs. Here, we have row sampling and feature sampling.
+
+**Row Sampling:**
+
+Suppose, we have 100 samples. So, that means, 100 rows.
+
+**Feature Sampling:**
+
+Suppose, we have 50 features. From Row Sampling, if we take 30 rows and 40 features, we create a subset and train DT1. For DT2, we create a subset using different data (50 rows) and take 30 columns. 
+
+![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning-and-Tree-Pruning-and-Hyper-Parameter-Optimization/assets/65033964/9d89370c-c202-4ae4-903a-dd8f212cdf60)
+
+Based on the subset, we apply DT algorithm again. This subset will construct a different tree.
+
+The same happens for other DTs as well.
+
+**n_estimators:** How many trees we want? If we don't mention the no. of trees, then by default, 100 trees will be generated.
+
+**Computational Time & Cost:** The computational time and cost in RF are high as no. of generated trees re high and as a result, no. of calculations is also high. On the other hand, DT only creates a single tree. Considering these, RF produces better output. In RF, the probability of mistakes is less as multiple trees take decision together.
+
+**K number of records:** How many trees we want? Suppose, we want 10 trees. In that case, it will take 10 trees randomly.
 
 **Advantages and Disadvantages of Random Forest:**
 
@@ -197,6 +222,9 @@ However, despite these advantages, a random forest algorithm also has some **dis
 
 ▪ Recommendation Price, Optimization Search Ranking
 
+In RF. **we don't need Data Normalization** as we work based on the probabilities that we get from the tree values. In this case, we don't need data normalization. If we do the mathematical calculation, then we would need Data Normalization. For example: If we want to find out how much data is huge or less.
+
+
 # Decision Tree Vs. Random Forest
 
 
@@ -204,6 +232,7 @@ However, despite these advantages, a random forest algorithm also has some **dis
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/79a1e12f-d1a4-4ba3-a09b-65564f408a8f)
 
 
+Suppose, there are 50 features. We don't need all the features for getting the output.
 
 # Hyper Param Optimization
 
@@ -213,9 +242,13 @@ Hyperparameter optimization, also known as hyperparameter tuning, is the process
 
 **Random Search**: Random search randomly samples hyperparameter values from predefined ranges. It is computationally less expensive than grid search and often provides similar or even better results.
 
-**Bayesian Optimization**: Bayesian optimization uses probabilistic models to predict the performance of the model for different hyperparameter values and focuses on exploring regions that are likely to yield better results.
+**Bayesian Optimization**: Bayesian optimization uses probabilistic models to predict the performance of the model for different hyperparameter values and focuses on exploring regions that are likely to yield better results. This is for Bayesian Classification. This is better for the probabilistic model.
+
+These three are optimization techniques. They pick the parameter randomly and train the DT model.
 
 The **difference** between Grid Search and Random Search -> In Random Search, we will have to mention the no. of iteration (n_iter).
+
+Random Search is better than Grid Search. This also takes less time than Random Search. Grid Search is computationally expensive and takes more time.
 
 # dt_params
 
