@@ -40,10 +40,14 @@ collapsing nodes to reduce overfitting.**
 
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/ab1cd441-6c09-4c8c-b48e-34e679b28f35)
 
+After Pruning, the tree became simple. By this, we can also predict easily. This mainly reduces overfitting.
+
+We are going to make the tree as simple as we can by considering the prediction result. We will also have to ensure a good prediction result.
+
 
 # Ensemble Learning
 
-▪ Ensemble learning is a machine learning technique that involves combining the predictions of multiple individual models (learners) to create a more robust and accurate model.
+▪ Ensemble learning is a machine learning technique that involves combining the predictions of multiple individual models (learners) to create a more robust and accurate model. Ensemble learning means multiple model. 
 
 ▪ The idea behind ensemble learning is that by combining several weak or moderately performing models, the ensemble can achieve better overall performance and generalization compared to any single model in the ensemble.
 
@@ -51,6 +55,11 @@ collapsing nodes to reduce overfitting.**
 
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/a8f17194-17e3-4f7e-afa8-114fa81e8e2f)
 
+
+In Bagging, we created 4 DTs on the dataset and based on their results, the output will be the majority result.
+
+
+![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning-and-Tree-Pruning-and-Hyper-Parameter-Optimization/assets/65033964/8214799f-6b07-4d60-bb0b-ff190171d8d7)
 
 
 
