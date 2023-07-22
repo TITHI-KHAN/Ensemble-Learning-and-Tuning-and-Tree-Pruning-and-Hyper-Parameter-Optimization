@@ -2,11 +2,19 @@
 
 # Pruning Basics
 
+In DT, if there is any unnecessary edges, then we have to remove them. In the case of Neural Network, there are weight, unnecessary neural, and many layers. We have to remove those unnecessary ones. This is called 'Pruning'.
+
 **Neural Network Pruning:**
 
 ▪ **Weight Pruning**: Removing connections with small weights or setting them to zero.
 
 ▪ **Neuron Pruning**: Removing entire neurons from the network.
+
+This is also called **'Node Pruning'**. Removing entire node from the neural network.  
+
+In Neural Network, there are 3 layers: Input Layer, Output Layer, and Hidden Layer. 
+
+If there is any unnecessary hidden layer, then we can also remove those using Pruning.
 
 ▪ **Layer Pruning**: Removing entire layers of the neural network.
 
@@ -14,18 +22,23 @@
 
 ▪ **Pre-Pruning**: It involves setting a threshold on certain parameters (e.g., the maximum depth of the tree, minimum number of samples per leaf) while growing the tree. The tree construction stops when the threshold is reached, preventing the tree from growing too large. It is also a hyperparameter optimization technique.
 
+Pruning the tree before constructing. We can create the tree based on the maximum tree depth, height, and criterion.
+
 ▪ **Post-Pruning**: This technique involves growing the tree to its full depth and then removing nodes or branches that do not provide significant predictive power. Pruning decisions are made based on metrics like cross- validation accuracy or information gain.
+
+Pruning after constructing the tree. 
 
 **For a big dataset, pre-pruning is generally recommended over post-pruning. Pre-pruning refers to stopping the tree construction
 process early before it reaches its maximum depth, while post-pruning involves building the complete tree and then removing or
 collapsing nodes to reduce overfitting.**
 
+**Recommended**: If the dataset is small, then use Post-Pruning. if the dataset is huge, then use Pre-Pruning.
+
+
 # Decision Tree Pruning
 
 
 ![image](https://github.com/TITHI-KHAN/Ensemble-Learning-and-Tuning/assets/65033964/ab1cd441-6c09-4c8c-b48e-34e679b28f35)
-
-
 
 
 # Ensemble Learning
